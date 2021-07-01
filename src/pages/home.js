@@ -45,7 +45,7 @@ export default function Home() {
           <a href="https://twitter.com/neilbostian" target="_blank">
             @NeilBostian
           </a>{' '}
-          — ✅ DMs open
+          — 💌 DMs open
         </li>
         <li>
           <span>
