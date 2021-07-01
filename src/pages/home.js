@@ -28,7 +28,7 @@ export default function Home() {
         <li>
           <a href="https://github.com/NeilBostian/x86-quine">
             github/x86-quine
-          </a>
+          </a>{' '}
           — A quine written in x86/64 assembly language
         </li>
         <li>
