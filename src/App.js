@@ -1,26 +1,29 @@
-import './App.css';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
+import styled from 'styled-components';
+import Home from './pages/home';
+
+const AppStyle = styled.div`
+  & {
+    @media screen and (min-width: 1050px) {
+      width: 1000px;
+    }
+    @media screen and (max-width: 1049px) {
+      width: 100%;
+    }
+  }
+`;
 
 function App() {
   return (
-    <Router>
-      <ul>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-        <li>
-          <Link to="/about">About</Link>
-        </li>
-      </ul>
-      <Switch>
-        <Route path="/about">
-          <h2>About Neil</h2>
-        </Route>
-        <Route path="/">
-          <h2>Home</h2>
-        </Route>
-      </Switch>
-    </Router>
+    <AppStyle>
+      <Router>
+        <Switch>
+          <Route path="/">
+            <Home />
+          </Route>
+        </Switch>
+      </Router>
+    </AppStyle>
   );
 }
 
