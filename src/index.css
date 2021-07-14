@@ -25,9 +25,13 @@ a {
   color: #444;
 }
 
-ul,
-ol {
+ul {
   list-style-type: circle;
+}
+
+ul li,
+ol li {
+  padding: 5px 0;
 }
 
 p {

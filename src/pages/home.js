@@ -1,17 +1,10 @@
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
-import styled from 'styled-components';
-
-const HomeStyles = styled.div`
-  ul li {
-    padding: 5px 0;
-  }
-`;
 
 export default function Home() {
   return (
-    <HomeStyles>
+    <div>
       <h2>Neil's Place</h2>
       <p>
         Hey there welcome to my place, thanks for stopping by. I'm a software
@@ -34,6 +27,10 @@ export default function Home() {
         <li>
           <a href="http://store.steampowered.com/app/446770">steam/skeet</a> — A
           VR skeet shooting game built with Unity3d
+        </li>
+        <li>
+          <Link to="/doomphone">DoomPhone</Link> — An office phone I hacked to
+          run Doom
         </li>
       </ul>
       <h3>Find Me</h3>
@@ -79,6 +76,6 @@ export default function Home() {
         <li>My favorite language is C#</li>
         <li>I'm from New York [State, not City]</li>
       </ul>
-    </HomeStyles>
+    </div>
   );
 }
