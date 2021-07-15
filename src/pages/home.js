@@ -4,7 +4,7 @@ import { faTwitter, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 export default function Home() {
   return (
-    <div>
+    <>
       <h2>Neil's Place</h2>
       <p>
         Hey there welcome to my place, thanks for stopping by. I'm a software
@@ -76,6 +76,6 @@ export default function Home() {
         <li>My favorite language is C#</li>
         <li>I'm from New York [State, not City]</li>
       </ul>
-    </div>
+    </>
   );
 }

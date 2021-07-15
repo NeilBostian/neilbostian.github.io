@@ -2,5 +2,8 @@
   "editor.formatOnSave": true,
   "editor.formatOnPaste": false,
   "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "cSpell.words": [
+    "polycom"
+  ]
 }
