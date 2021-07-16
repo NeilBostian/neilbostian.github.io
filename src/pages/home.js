@@ -7,30 +7,25 @@ export default function Home() {
     <>
       <h2>Neil's Place</h2>
       <p>
-        Hey there welcome to my place, thanks for stopping by. I'm a software
-        engineer by day; currently building the future of cannabis with{' '}
-        <a href="https://growflow.com">@GrowFlow</a>. By night I identify as
-        your friendly hacker. Check out some of my projects 👇🏻
+        Hey there welcome to my place, thanks for stopping by. I'm a software engineer by day; currently building the
+        future of cannabis with <a href="https://growflow.com">@GrowFlow</a>. By night I identify as your friendly
+        hacker. Check out some of my projects 👇🏻
       </p>
       <h3>My Work</h3>
       <ul>
         <li>
-          <a href="https://github.com/NeilBostian/os">github/os</a> — A toy
-          operating system in C++
+          <a href="https://github.com/NeilBostian/os">github/os</a> — A toy operating system in C++
         </li>
         <li>
-          <a href="https://github.com/NeilBostian/x86-quine">
-            github/x86-quine
-          </a>{' '}
-          — A quine written in x86/64 assembly language
+          <a href="https://github.com/NeilBostian/x86-quine">github/x86-quine</a> — A quine written in x86/64 assembly
+          language
         </li>
         <li>
-          <a href="http://store.steampowered.com/app/446770">steam/skeet</a> — A
-          VR skeet shooting game built with Unity3d
+          <a href="http://store.steampowered.com/app/446770">steam/skeet</a> — A VR skeet shooting game built with
+          Unity3d
         </li>
         <li>
-          <Link to="/doomphone">DoomPhone</Link> — An office phone I hacked to
-          run Doom
+          <Link to="/doomphone">github/DoomPhone</Link> — An office phone I hacked to run Doom
         </li>
       </ul>
       <h3>Find Me</h3>
@@ -56,9 +51,8 @@ export default function Home() {
       </ul>
       <h3>About Me</h3>
       <p>
-        On the daily I work with JS and C#. My skills range from front-end
-        html/css/js to back-end graphql and webservers to databases and devops.
-        I work with all members of an organization to solve problems and build
+        On the daily I work with JS and C#. My skills range from front-end html/css/js to back-end graphql and
+        webservers to databases and devops. I work with all members of an organization to solve problems and build
         features.
       </p>
       <h4>Neil Trivia</h4>
@@ -69,10 +63,7 @@ export default function Home() {
             regex crossword puzzles
           </a>
         </li>
-        <li>
-          I come from a family of engineers! You may stumble upon them if you
-          look hard enough 😉
-        </li>
+        <li>I come from a family of engineers! You may stumble upon them if you look hard enough 😉</li>
         <li>My favorite language is C#</li>
         <li>I'm from New York [State, not City]</li>
       </ul>
