@@ -66,6 +66,13 @@ export default function Home() {
         <li>I come from a family of engineers! You may stumble upon them if you look hard enough 😉</li>
         <li>My favorite language is C#</li>
         <li>I'm from New York [State, not City]</li>
+        <li>
+          I broke my arm as a child and have titanium plates screwed into my left{' '}
+          <a href="https://www.mayoclinic.org/diseases-conditions/broken-arm/multimedia/arm-bones/img-20007018">
+            radius and ulna
+          </a>
+          . 🦾
+        </li>
       </ul>
     </>
   );
