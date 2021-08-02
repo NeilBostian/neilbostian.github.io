@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { CopyBlock, github } from 'react-code-blocks';
+import { TwitterTweetEmbed, TwitterDMButton } from 'react-twitter-embed';
 import styled from 'styled-components';
 
 import doomTitle from './doomphone/doom-title.png';
@@ -514,6 +515,14 @@ cd doom
         showLineNumbers={false}
         theme={github}
       />
+      <p>There we have it: DOOM runs on the phone. Check out a video of me playing 👇🏻</p>
+      <p>
+        <TwitterTweetEmbed tweetId={'1422014712326279171'} options={{ cards: 'hidden', align: 'center' }} />
+      </p>
+      <p>
+        As a final note, you may have noticed there isn't any sound. I'll leave that as an exercise for the eager
+        reader, or maybe if I get ambitious in the future.
+      </p>
 
       <h3 id="doomphone-conclusion">Conclusion</h3>
       <p>
@@ -573,8 +582,9 @@ cd doom
       <p>
         <Italic>Neil</Italic>
       </p>
-      <p></p>
-      <p>Questions, comments, or other feedback? Drop a reply on twitter or </p>
+      <p style={{ margin: '50px 0' }}>
+        Questions, comments, or other feedback? Drop a reply on twitter or send me a DM!
+      </p>
     </>
   );
 }
