@@ -582,8 +582,11 @@ cd doom
       <p>
         <Italic>Neil</Italic>
       </p>
-      <p style={{ margin: '50px 0' }}>
+      <p style={{ marginTop: '50px 0' }}>
         Questions, comments, or other feedback? Drop a reply on twitter or send me a DM!
+      </p>
+      <p style={{ marginBottom: '50px' }}>
+        <TwitterTweetEmbed tweetId={'1422025921171759104'} options={{ cards: 'hidden', align: 'center' }} />
       </p>
     </>
   );
