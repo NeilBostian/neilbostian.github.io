@@ -1,0 +1,2 @@
+(this["webpackJsonpneilbostian-github-io"]=this["webpackJsonpneilbostian-github-io"]||[]).push([[8],{118:function(t,i,n){"use strict";function a(t){t.languages.arff={comment:/%.*/,string:{pattern:/(["'])(?:\\.|(?!\1)[^\\\r\n])*\1/,greedy:!0},keyword:/@(?:attribute|data|end|relation)\b/i,number:/\b\d+(?:\.\d+)?\b/,punctuation:/[{},]/}}t.exports=a,a.displayName="arff",a.aliases=[]}}]);
+//# sourceMappingURL=react-syntax-highlighter_languages_refractor_arff.ed9983d5.chunk.js.map
