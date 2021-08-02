@@ -17,17 +17,30 @@ h2 {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-size: 0.8em;
+  line-height: 2em;
 }
 
 a {
   color: #444;
 }
 
-ul,
-ol {
+ul {
   list-style-type: circle;
+}
+
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 0;
+  padding: 0 20px;
+}
+
+ul li,
+ol li {
+  padding: 5px 0;
 }
 
 p {

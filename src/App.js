@@ -1,6 +1,7 @@
 import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import styled from 'styled-components';
 import Home from './pages/home';
+import DoomPhone from './pages/doomphone';
 
 const AppStyle = styled.div`
   & {
@@ -18,6 +19,9 @@ function App() {
     <AppStyle>
       <Router>
         <Switch>
+          <Route exact path="/doomphone">
+            <DoomPhone />
+          </Route>
           <Route path="/">
             <Home />
           </Route>
