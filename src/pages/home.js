@@ -69,8 +69,8 @@ export default function Home() {
       <h3>About Me</h3>
       <p>
         On the daily I work with JS and C#. My skills range from front-end html/css/js to back-end graphql and
-        webservers to databases and devops. I work with all members of an organization to solve problems and build
-        features.
+        webservers to databases and devops. I work with all members of an organization to build products and solve
+        problems.
       </p>
       <h4>Neil Trivia</h4>
       <ul>
