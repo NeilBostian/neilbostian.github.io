@@ -14,6 +14,9 @@ export default function Home() {
       <h3>My Work</h3>
       <ul>
         <li>
+          <Link to="/doomphone">github/DoomPhone</Link> — An office phone I hacked to run Doom
+        </li>
+        <li>
           <a href="https://github.com/NeilBostian/os">github/os</a> — A toy operating system in C++
         </li>
         <li>
@@ -23,9 +26,6 @@ export default function Home() {
         <li>
           <a href="http://store.steampowered.com/app/446770">steam/skeet</a> — A VR skeet shooting game built with
           Unity3d
-        </li>
-        <li>
-          <Link to="/doomphone">github/DoomPhone</Link> — An office phone I hacked to run Doom
         </li>
       </ul>
       <h3>Find Me</h3>
