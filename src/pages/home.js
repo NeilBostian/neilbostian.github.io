@@ -17,15 +17,32 @@ export default function Home() {
           <Link to="/doomphone">github/DoomPhone</Link> — An office phone I hacked to run Doom
         </li>
         <li>
-          <a href="https://github.com/NeilBostian/os">github/os</a> — A toy operating system in C++
+          <a target="_blank" href="https://github.com/NeilBostian/bf-in-ts">
+            github/bf-in-ts
+          </a>{' '}
+          — A{' '}
+          <a target="_blank" href="https://en.wikipedia.org/wiki/Brainfuck">
+            brainfuck
+          </a>{' '}
+          implementation using Typescript's type system
         </li>
         <li>
-          <a href="https://github.com/NeilBostian/x86-quine">github/x86-quine</a> — A quine written in x86/64 assembly
-          language
+          <a target="_blank" href="https://github.com/NeilBostian/os">
+            github/os
+          </a>{' '}
+          — A toy operating system in C++
         </li>
         <li>
-          <a href="http://store.steampowered.com/app/446770">steam/skeet</a> — A VR skeet shooting game built with
-          Unity3d
+          <a target="_blank" href="https://github.com/NeilBostian/x86-quine">
+            github/x86-quine
+          </a>{' '}
+          — A quine written in x86/64 assembly language
+        </li>
+        <li>
+          <a target="_blank" href="http://store.steampowered.com/app/446770">
+            steam/skeet
+          </a>{' '}
+          — A VR skeet shooting game built with Unity3d
         </li>
       </ul>
       <h3>Find Me</h3>
