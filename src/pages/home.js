@@ -7,9 +7,8 @@ export default function Home() {
     <>
       <h2>Neil's Place</h2>
       <p>
-        Hey there welcome to my place, thanks for stopping by. I'm a software engineer by day; currently building the
-        future of cannabis with <a href="https://growflow.com">@GrowFlow</a>. By night I identify as your friendly
-        hacker. Check out some of my projects 👇🏻
+        Hey there welcome to my place, thanks for stopping by. I'm a software engineer by day. By night I identify as
+        your friendly hacker. Check out some of my projects 👇🏻
       </p>
       <h3>My Work</h3>
       <ul>
